@@ -66,7 +66,7 @@ class Settings extends StatelessWidget {
         backgroundColor: Colors.transparent,
         title: Text('Settings'),
         textTheme: TextTheme(
-          title: TextStyle(
+          headline6: TextStyle(
             color: Colors.black,
             fontSize: 26.0,
           ),
@@ -165,7 +165,7 @@ class Settings extends StatelessWidget {
                 color: Colors.blue[500],
               ),
               listItem(
-                label: 'Accessibilty',
+                label: 'Accessibility',
                 icon: Icons.accessibility,
                 color: Colors.blue[500],
               ),
